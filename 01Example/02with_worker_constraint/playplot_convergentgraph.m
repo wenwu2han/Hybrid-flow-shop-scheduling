@@ -1,0 +1,20 @@
+%ªÊ÷∆ ’¡≤Õº
+rank=3;
+filename=strcat('result5tai0120°¡5I_',char(48+0),char(48+rank));
+load(filename);
+x=1:maxgen;
+y_f1=Populate_first_mean(:,1).';
+y_f2=Populate_first_mean(:,2).';
+y_f3=Populate_first_mean(:,3).';
+subplot(3,1,1),plot(x,y_f1,'-g');
+legend('makespan');
+xlabel('generation count');
+ylabel('fitness');
+subplot(3,1,2),plot(x,y_f2,'-r');
+legend('workload balance of machine');
+xlabel('generation count');
+ylabel('fitness');
+subplot(3,1,3),plot(x,y_f3,'-b');
+legend('workload balance of worker');
+xlabel('generation count');
+ylabel('fitness');

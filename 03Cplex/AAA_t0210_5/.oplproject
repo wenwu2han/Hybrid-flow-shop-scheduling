@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="AAA_t0210_5" category="opl">
+			<ref name="AAA_t0210_5.mod" type="model">
+			</ref>
+			<ref name="AAA_t0210_5.ops" type="setting">
+			</ref>
+			<ref name="AAA_t0210_5.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
